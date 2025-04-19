@@ -1,5 +1,4 @@
-# Creating the README.md content as a string
-readme_content = """
+
 # 🎬 IMDb Movie Analysis with GPU-Accelerated Machine Learning
 
 This project explores the [Full IMDb Dataset](https://www.kaggle.com/datasets/octopusteam/full-imdb-dataset/data) using GPU-accelerated libraries from the RAPIDS ecosystem to perform scalable data preprocessing, feature engineering, regression modeling, and clustering on over 1 million movie records.
