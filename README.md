@@ -60,15 +60,3 @@ This project explores the [Full IMDb Dataset](https://www.kaggle.com/datasets/oc
 - Model Performance Comparisons
 - KMeans Clustering (grouping movies)
 
----
-
-## 📁 Project Structure
-
-.
-├── Mustafa_AlAli.ipynb                   # Main Jupyter notebook with data loading, preprocessing, modeling, and analysis
-├── best_svr_model.joblib                 # Serialized Support Vector Regressor (cuML) for IMDb rating prediction
-├── best_xgb_model_gridsearch.joblib      # XGBoost model optimized with GridSearchCV (GPU-supported tuning)
-├── best_model_xgb.joblib                 # Final XGBoost model with selected features and tuned hyperparameters (GPU-based)
-├── best_gbr_model.joblib                 # cuML Gradient Boosted Regressor with best performance (highest R²)
-├── requirements.txt                      # Required packages and dependencies for project environment
-└── README.md                             # Project overview and instructions
